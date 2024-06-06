@@ -1,0 +1,58 @@
+body, h1, h4, div {
+    margin: 0;
+    padding: 0;
+    background-image: url('https://pin.it/7AeeF7P');
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('goku-ultra-instinct-dragonball-thumb.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: rgb(66, 162, 235);
+}
+
+.title {
+    color: #0e0707;
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: larger;
+    text-align: center;
+}
+
+#products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 70px;
+    
+}
+
+.product {
+    background-color: rgba(78, 235, 214, 0.459);
+    border: 1px solid #db60cb;
+    box-shadow: 0px 2px 4px rgba(116, 228, 52, 0.1);
+    margin: 20px;
+    padding: 50px;
+    text-align: center;
+    transition: transform 0.2s;
+    max-width: 200px;
+}
+
+.product:hover {
+    transform: translateY(-30px);
+    box-shadow: 0px 4px 8px rgba(3, 51, 184, 0.575);
+}
+
+.image {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.description {
+    color: #351d1d;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
